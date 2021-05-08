@@ -25,11 +25,11 @@ namespace Exerc_cio_AnaliseCredito
 
             valorParcela  = ( Emprestimo /  parcelas);
 
-            if ( porcentagem  >  valorParcela )
+            if ( porcentagem  >=  valorParcela )
             {
                 Console . WriteLine ( " \n Emprestimo Autorizado " );
             }
-            else  if ( porcentagem  <  valorParcela )
+            else  
             {
                  Console . WriteLine ($" \n Emprestimo Não Autorizado" );
             }
